@@ -18,7 +18,7 @@
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  * 
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  * 
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -33,7 +33,7 @@
  *  MathJax and its various components.  Some additional options are
  *  available, however, and are listed in the various links at:
  *  
- *  http://www.mathjax.org/resources/docs/?configuration.html#configuration-options-by-component
+ *  https://www.mathjax.org/resources/docs/?configuration.html#configuration-options-by-component
  *
  *  You can add these to the configuration object below if you 
  *  want to change them from their default values.
@@ -370,7 +370,7 @@ MathJax.Hub.Config({
     //  could have it say "[math]" or load an image).
     //  
     //  E.g.,     preview: ["[math]"],
-    //  or        preview: [["img",{src: "http://myserver.com/images/mypic.jpg"}]]
+    //  or        preview: [["img",{src: "https://myserver.com/images/mypic.jpg"}]]
     //  
     preview: "TeX"
     
@@ -435,7 +435,7 @@ MathJax.Hub.Config({
     //  could have it say "[math]" or load an image).
     //  
     //  E.g.,     preview: ["[math]"],
-    //  or        preview: [["img",{src: "http://myserver.com/images/mypic.jpg"}]]
+    //  or        preview: [["img",{src: "https://myserver.com/images/mypic.jpg"}]]
     //  
     preview: "AsciiMath"
     
@@ -464,7 +464,7 @@ MathJax.Hub.Config({
     //  load an image).
     //  
     //  E.g.,     preview: ["[math]"],
-    //  or        preview: [["img",{src: "http://myserver.com/images/mypic.jpg"}]]
+    //  or        preview: [["img",{src: "https://myserver.com/images/mypic.jpg"}]]
     //  
     preview: "mathml"
     
@@ -489,7 +489,7 @@ MathJax.Hub.Config({
     //  or load an image).
     //  
     //  E.g.,     preview: ["[math]"],
-    //  or        preview: [["img",{src: "http://myserver.com/images/mypic.jpg"}]]
+    //  or        preview: [["img",{src: "https://myserver.com/images/mypic.jpg"}]]
     //  
     preview: "TeX"
     
@@ -1024,7 +1024,7 @@ MathJax.Hub.Config({
     //
     //  This is the URL for the MathJax Help menu item.
     //
-    helpURL: "http://www.mathjax.org/help-v2/user/",
+    helpURL: "https://www.mathjax.org/help-v2/user/",
 
     //
     //  These control whether the "Math Renderer", "MathPlayer", "Font

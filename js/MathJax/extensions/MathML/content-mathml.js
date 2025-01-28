@@ -7,7 +7,7 @@
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -20,7 +20,7 @@ MathJax.Extension["MathML/content-mathml"] = (function (d) {
     var c = d.Browser.isMSIE;
     if (c) {
         try {
-            document.namespaces.add("m", "http://www.w3.org/1998/Math/MathML")
+            document.namespaces.add("m", "https://www.w3.org/1998/Math/MathML")
         } catch (e) {
         }
     }
@@ -67,7 +67,7 @@ MathJax.Extension["MathML/content-mathml"] = (function (d) {
             }
             return m
         }, createElement: function (f) {
-            var g = (c ? document.createElement("m:" + f) : document.createElementNS("http://www.w3.org/1998/Math/MathML", f));
+            var g = (c ? document.createElement("m:" + f) : document.createElementNS("https://www.w3.org/1998/Math/MathML", f));
             g.isMathJax = true;
             return g
         }, getChildren: function (i) {

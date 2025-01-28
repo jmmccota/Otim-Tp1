@@ -54,10 +54,10 @@ Guidelines for bug reports:
 3. **Share a live sample of the problem** &mdash; without a live page it is usually impossible to debug problems; see also the Bug Report Template below.
 
 4. **Isolate the problem** &mdash; a live sample is a starting point but if you want to speed things up create a [reduced test
-   case](http://css-tricks.com/6263-reduced-test-cases/). Be specific about your setup (browser, OS versions etc). Use services like [jsbin](http://jsbin.com), [CodePen](http://codepen.io), [JSfiddle](http://jsfiddle.com) to make collaboration on minimal test cases easier for everyone. Use the unpacked copy of MathJax (`[...]/unpacked/MathJax.js` etc.) for better debugging.
+   case](https://css-tricks.com/6263-reduced-test-cases/). Be specific about your setup (browser, OS versions etc). Use services like [jsbin](https://jsbin.com), [CodePen](https://codepen.io), [JSfiddle](https://jsfiddle.com) to make collaboration on minimal test cases easier for everyone. Use the unpacked copy of MathJax (`[...]/unpacked/MathJax.js` etc.) for better debugging.
 
 5. **Include a screenshot/cast as a last resort** &mdash; Is your issue about a layout
-   or design feature / bug but hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like [LICEcap](http://www.cockos.com/licecap/) or [SauceLabs](http://www.saucelabs.com) allow you to quickly and easily record a screencasts. Make it an animated gif, embed it directly into your GitHub issue -- kapow!
+   or design feature / bug but hard to reproduce or isolate? Then please provide a screenshot or screencast. Tools like [LICEcap](https://www.cockos.com/licecap/) or [SauceLabs](https://www.saucelabs.com) allow you to quickly and easily record a screencasts. Make it an animated gif, embed it directly into your GitHub issue -- kapow!
 
 6. Use the Bug Report template below or [click this
    link](https://github.com/MathJax/MathJax/issues/new?title=Bug%3A&body=%23%23%23%20Issue%20Summary%0A%0A%23%23%23%20Steps%20to%20Reproduce%0A%0A1.%20This%20is%20the%20first%20step%0A%0AThis%20is%20a%20bug%20because...%0A%0A%23%23%23%20Technical%20details%0A%0A*%20MathJax%20Version%3A%20master%20-%20latest%20commit%3A%20%20INSERT%20COMMIT%20REF%0A*%20Client%20OS%3A%20%0A*%20Browser%3A%20%0A*%20)
@@ -192,12 +192,12 @@ requests in the same way as branches:
 
 ### Writing documentation
 
-MathJax's main documentation can be found at [docs.mathjax.org](http://docs.mathjax.org).
+MathJax's main documentation can be found at [docs.mathjax.org](https://docs.mathjax.org).
 The source of the docs is hosted in the
-[mathjax/mathjax-docs](http://github.com/mathjax/mathjax-docs) repo here on GitHub.
+[mathjax/mathjax-docs](https://github.com/mathjax/mathjax-docs) repo here on GitHub.
 
-The documentation is generated using [Sphinx-doc](http://sphinx-doc.org/) and hosted on 
-[Read the docs](http://readthedocs.org).
+The documentation is generated using [Sphinx-doc](https://sphinx-doc.org/) and hosted on 
+[Read the docs](https://readthedocs.org).
 You can clone the repo and submit pull requests following the
 [pull-request](#submitting-pull-requests) guidelines.
 
@@ -232,7 +232,7 @@ want to experiment with, make a fork and see how it works.
 We will exclude you from interaction if you insult, demean or harass anyone.
 That is not welcome behaviour. We interpret the term "harassment" as
 including the definition in the
-[Citizen Code of Conduct](http://citizencodeofconduct.org/);
+[Citizen Code of Conduct](https://citizencodeofconduct.org/);
 if you have any lack of clarity about what might be included in that concept,
 please read their definition. In particular, we don't tolerate behavior that
 excludes people in socially marginalized groups.
@@ -248,7 +248,7 @@ Likewise any spamming, trolling, flaming, baiting or other attention-stealing
 behaviour is not welcome.
 
 We also suggest to read [discourse's
-rules](http://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/)
+rules](https://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/)
 
 ## References
 
@@ -256,4 +256,4 @@ rules](http://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discou
   * https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md
   * https://github.com/mozilla/rust/wiki/Note-development-policy
 * https://github.com/jden/CONTRIBUTING.md/blob/master/CONTRIBUTING.md
-* http://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/
+* https://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/

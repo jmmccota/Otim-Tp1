@@ -26,7 +26,7 @@ Some of the main features of MathJax include:
 
 - Powerful API for integration with other web applications
 
-See <http://www.mathjax.org/> for additional details.
+See <https://www.mathjax.org/> for additional details.
 
 
 ## Installation and Usage
@@ -34,19 +34,19 @@ See <http://www.mathjax.org/> for additional details.
 The MathJax installation and usage documentation is available in the
 `docs/html` directory of the MathJax distribution (see
 `docs/html/index.html` for the starting point).  The documents are also
-available on the MathJax web site on line at <http://www.mathjax.org/resources/docs/>.
+available on the MathJax web site on line at <https://www.mathjax.org/resources/docs/>.
 
 
 ## Community
 
-The main MathJax website is <http://www.mathjax.org>, and it includes
+The main MathJax website is <https://www.mathjax.org>, and it includes
 announcements and other important information.  MathJax is maintained and
-distributed on GitHub at <http://github.com/mathjax/MathJax>.  A user forum
+distributed on GitHub at <https://github.com/mathjax/MathJax>.  A user forum
 for asking questions and getting assistance is hosted at Google, and the
 bug tracker is hosted at GitHub:
 
 Bug tracker:         <https://github.com/mathjax/MathJax/issues>  
-MathJax-Users Group: <http://groups.google.com/group/mathjax-users>
+MathJax-Users Group: <https://groups.google.com/group/mathjax-users>
 
 Before reporting a bug, please check that it has not already been reported.
 Also, please use the bug tracker for reporting bugs rather than the help forum.

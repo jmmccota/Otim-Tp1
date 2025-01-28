@@ -7,7 +7,7 @@
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -462,7 +462,7 @@
         a.About.GetJax(r, MathJax.Extension, ["Extension", "%1 Extension v%2"], true);
         r.push(["div", {style: {"border-top": "groove 2px", margin: ".25em 0"}}], ["center", {}, [c.Browser + " v" + c.Browser.version + (x ? " \u2014 " + o(x.replace(/ /g, ""), x) : "")]]);
         a.About.div = a.Background(a.About);
-        var v = g.addElement(a.About.div, "div", {id: "MathJax_About"}, [["b", {style: {fontSize: "120%"}}, ["MathJax"]], " v" + MathJax.version, ["br"], o(s.replace(/ /g, ""), "using " + s), ["br"], ["br"], ["span", {style: {display: "inline-block", "text-align": "left", "font-size": "80%", "max-height": "20em", overflow: "auto", "background-color": "#E4E4E4", padding: ".4em .6em", border: "1px inset"}}, r], ["br"], ["br"], ["a", {href: "http://www.mathjax.org/"}, ["www.mathjax.org"]], ["img", {src: p.closeImg, style: {width: "21px", height: "21px", position: "absolute", top: ".2em", right: ".2em"}, onclick: a.About.Remove}]]);
+        var v = g.addElement(a.About.div, "div", {id: "MathJax_About"}, [["b", {style: {fontSize: "120%"}}, ["MathJax"]], " v" + MathJax.version, ["br"], o(s.replace(/ /g, ""), "using " + s), ["br"], ["br"], ["span", {style: {display: "inline-block", "text-align": "left", "font-size": "80%", "max-height": "20em", overflow: "auto", "background-color": "#E4E4E4", padding: ".4em .6em", border: "1px inset"}}, r], ["br"], ["br"], ["a", {href: "https://www.mathjax.org/"}, ["www.mathjax.org"]], ["img", {src: p.closeImg, style: {width: "21px", height: "21px", position: "absolute", top: ".2em", right: ".2em"}, onclick: a.About.Remove}]]);
         MathJax.Localization.setCSS(v);
         var w = (document.documentElement || {});
         var u = window.innerHeight || w.clientHeight || w.scrollHeight || 0;

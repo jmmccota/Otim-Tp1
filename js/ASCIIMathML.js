@@ -154,7 +154,7 @@ var asciimath = {};
         nd.appendChild(document.createTextNode("For instructions see the "));
         var an = createElementXHTML("a");
         an.appendChild(document.createTextNode("ASCIIMathML"));
-        an.setAttribute("href", "http://www.chapman.edu/~jipsen/asciimath.html");
+        an.setAttribute("href", "https://www.chapman.edu/~jipsen/asciimath.html");
         nd.appendChild(an);
         nd.appendChild(document.createTextNode(" homepage"));
         an = createElementXHTML("div");
@@ -179,10 +179,10 @@ var asciimath = {};
         if (isIE)
             return document.createElement(t);
         else
-            return document.createElementNS("http://www.w3.org/1999/xhtml", t);
+            return document.createElementNS("https://www.w3.org/1999/xhtml", t);
     }
 
-    var AMmathml = "http://www.w3.org/1998/Math/MathML";
+    var AMmathml = "https://www.w3.org/1998/Math/MathML";
 
     function AMcreateElementMathML(t) {
         if (isIE)

@@ -1,9 +1,9 @@
 %% $Id: abnt-alf.bst,v 1.45.2.1 2004/11/02 15:17:44 gweber Exp $
-%% Copyright 2001-2003 by the abnTeX group at http://abntex.codigolivre.org.br
+%% Copyright 2001-2003 by the abnTeX group at https://abntex.codigolivre.org.br
 %%
 %% Mantainer: Gerald Weber <gweber@codigolivre.org.br>
 %%
-%% This file is distributed under the LaTeXProject Public License (LPPL) http://www.latex-project.org/lppl.html
+%% This file is distributed under the LaTeXProject Public License (LPPL) https://www.latex-project.org/lppl.html
 %% You are free to modify this file under the LPPL.
 %%
 %% This file is an *extensive* modification from a file generated with the docstrip utility.
@@ -11,7 +11,7 @@
 %% merlin.mbs  (with options: `babel,nm-revf,aunm-semi,nmlm,x3,m3,dt-end,yr-com,xmth,vnum-x,volp-com,jwdpg,jwdvol,num-xser,btit-rm,bt-rm,pg-bk,add-pub,pub-date,pub-xpar,pre-pub,isbn,issn,pp,ed,abr,ednx,nfss')
 %% These sourefiles are copyrighted by Patrick W Daly
 %%
-%% Nota sobre os Logs: Se aparecer abnt-num é por que as aletarções foram feitas
+%% Nota sobre os Logs: Se aparecer abnt-num ï¿½ por que as aletarï¿½ï¿½es foram feitas
 %% neste arquivo e depois copiadas para abnt.alf e vice-versa.
 %%
 %% $Log: abnt-alf.bst,v $
@@ -19,41 +19,41 @@
 %% correcao do bug 239
 %%
 %% Revision 1.45  2003/07/23 12:06:01  gweber
-%% O comando apply.title.command agora atua sobre todas as ocorrências de title, mas
-%% não sobre campos title que estão vazios.
+%% O comando apply.title.command agora atua sobre todas as ocorrï¿½ncias de title, mas
+%% nï¿½o sobre campos title que estï¿½o vazios.
 %%
 %% Revision 1.44  2003/07/22 16:26:01  gweber
-%% Adicionada a opção abnt-title-command. Com esta opção pode-se definir o comando
-%% \bibtextitlecommand que permite formatações especiais no titulo.
+%% Adicionada a opï¿½ï¿½o abnt-title-command. Com esta opï¿½ï¿½o pode-se definir o comando
+%% \bibtextitlecommand que permite formataï¿½ï¿½es especiais no titulo.
 %%
 %% Revision 1.43  2003/06/05 14:34:05  gweber
-%% Introduzido filtro.url.tex e filtro.url.html, a função do primeiro é alterar uma url de tal maneira
-%% que que o TeX possa processá-la sem problemas. A do segundo é fazer a mesma coisa
-%% para a url que é passada para html ou hyperref.
+%% Introduzido filtro.url.tex e filtro.url.html, a funï¿½ï¿½o do primeiro ï¿½ alterar uma url de tal maneira
+%% que que o TeX possa processï¿½-la sem problemas. A do segundo ï¿½ fazer a mesma coisa
+%% para a url que ï¿½ passada para html ou hyperref.
 %%
 %% Revision 1.42  2003/06/04 13:18:07  gweber
-%% Introduzidas as opções hyperref para abnt.url.package com isso os campos url são formatados agora como hyperlinks ativos.
-%% Também foram acrescentadas a opção abnt.doi que permite selecionar o tratamento que recebe uma url começada com doi:
+%% Introduzidas as opï¿½ï¿½es hyperref para abnt.url.package com isso os campos url sï¿½o formatados agora como hyperlinks ativos.
+%% Tambï¿½m foram acrescentadas a opï¿½ï¿½o abnt.doi que permite selecionar o tratamento que recebe uma url comeï¿½ada com doi:
 %%
 %% Revision 1.41  2003/04/08 00:39:39  gweber
-%% Implementada a entrada @hidden que gera um \hiddenbibitem (só alf),
-%% ou seja uma entrada que não aparece na lista de referências e que pode ser
+%% Implementada a entrada @hidden que gera um \hiddenbibitem (sï¿½ alf),
+%% ou seja uma entrada que nï¿½o aparece na lista de referï¿½ncias e que pode ser
 %% usada com o comando \apud e \apudonline.
 %%
 %% Revision 1.40  2003/04/01 19:34:47  gweber
-%% consertado bug de ordenação alfabética, agora a ordenação em sort.format.names é igual a de format.names
+%% consertado bug de ordenaï¿½ï¿½o alfabï¿½tica, agora a ordenaï¿½ï¿½o em sort.format.names ï¿½ igual a de format.names
 %%
 %% Revision 1.39  2003/03/25 14:06:19  gweber
-%% Inicio da adaptação para ISO 690:1987.
-%% Acrescentada a opção iso-author-punctuation cuja opção
+%% Inicio da adaptaï¿½ï¿½o para ISO 690:1987.
+%% Acrescentada a opï¿½ï¿½o iso-author-punctuation cuja opï¿½ï¿½o
 %% void gera iniciais juntas e sem ponto.
 %%
 %% Revision 1.38  2003/03/22 22:59:13  gweber
-%% abnt-nbr10520 foi substituído por abnt-cite-style.
-%% A função recompose.name recompõe um nome complicado, mas a função
-%% ainda é experimental e não está sendo usada no momento. Mesmo
-%% porque há nomes que o próprio bibtex tem problemas para tratar.
-%% A função presort for modificada de modo a poder manter o SORT em
+%% abnt-nbr10520 foi substituï¿½do por abnt-cite-style.
+%% A funï¿½ï¿½o recompose.name recompï¿½e um nome complicado, mas a funï¿½ï¿½o
+%% ainda ï¿½ experimental e nï¿½o estï¿½ sendo usada no momento. Mesmo
+%% porque hï¿½ nomes que o prï¿½prio bibtex tem problemas para tratar.
+%% A funï¿½ï¿½o presort for modificada de modo a poder manter o SORT em
 %% abnt-num sem realmente ordenar alfabeticamente.
 %%
 ENTRY
@@ -285,7 +285,7 @@ FUNCTION {bbl.edby} { "editado por" }
 FUNCTION {bbl.edition} { "ed." }
 FUNCTION {bbl.empty} {""}
 FUNCTION {bbl.etal}{abnt.etal.text "" = {""} {" " abnt.etal.text *} if$}
-FUNCTION {bbl.doi.url} {"http://dx.doi.org/"}
+FUNCTION {bbl.doi.url} {"https://dx.doi.org/"}
 FUNCTION {bbl.in}{ "In" iso.abbreviation 'skip$ { bbl.colon *} if$}
 FUNCTION {bbl.ldots} %#0 use nothing, #1 use \ldots, #2 use $\ldots$, 3# use {...}
 {abnt.ldots.type
@@ -301,7 +301,7 @@ FUNCTION {bbl.missing.year}
   {""}       %#0
  if$}
 FUNCTION {bbl.monography} { "Monografia" }
-FUNCTION {bbl.mthesis} { "Dissertação" }
+FUNCTION {bbl.mthesis} { "Dissertaï¿½ï¿½o" }
 FUNCTION {bbl.no.address} {"[S.l.]"}
 FUNCTION {bbl.no.address.no.publisher} {"[S.l.: s.n.]"}
 FUNCTION {bbl.no.publisher} {"[s.n.]"}
@@ -687,8 +687,8 @@ FUNCTION {format.howpublished}
 %typical author fields are absent. In this case the first
 %word is uppercase. Our main problem is to establish what
 %the first word actually is since portuguese uses accents.
-%For example: Fun{\c c}\ão (Função) is a whole word but contains a
-%space, but if we write Fun\c{c}\ão \c is converted to uppercase...
+%For example: Fun{\c c}\ï¿½o (Funï¿½ï¿½o) is a whole word but contains a
+%space, but if we write Fun\c{c}\ï¿½o \c is converted to uppercase...
 %You get the problem, don't you?
 FUNCTION {format.title.as.author}
 { 's := %holds the title
@@ -788,7 +788,7 @@ FUNCTION {format.date}
 { year empty$
     { month empty$
 	{ bbl.missing.year }
-	{ "existe o campo month (mês) mas não o campo year (ano) em " cite$ * warning$ month}
+	{ "existe o campo month (mï¿½s) mas nï¿½o o campo year (ano) em " cite$ * warning$ month}
       if$}
     { month empty$
 	{ year n.dashify}
@@ -809,7 +809,7 @@ compare.title
 FUNCTION {either.or.check}
 { empty$
     'pop$
-    { "não posso usar ambos " swap$ * " os campos em " * cite$ * warning$ }
+    { "nï¿½o posso usar ambos " swap$ * " os campos em " * cite$ * warning$ }
   if$
 }
 
@@ -1108,7 +1108,7 @@ FUNCTION {empty.misc.check}
   month empty$ year empty$ note empty$
   and and and and and
   key empty$ not and
-    { "todos os campos relevantes estão vazios ou faltando em " cite$ * warning$ }
+    { "todos os campos relevantes estï¿½o vazios ou faltando em " cite$ * warning$ }
     'skip$
   if$
 }
@@ -1432,7 +1432,7 @@ FUNCTION {fin.entry}
 FUNCTION { abnt.display.options}
 { 's := 't :=
   abnt.show.options #1 = % "warn"
-  {"opção " t * " passou para " * s * warning$ } 'skip$ if$
+  {"opï¿½ï¿½o " t * " passou para " * s * warning$ } 'skip$ if$
 
   abnt.show.options #2 = % "list"
   {"Op\c c\~ao selecionada {\tt " t * "=}\verb+" * s * "+" * output new.sentence } 'skip$ if$
@@ -1463,7 +1463,7 @@ FUNCTION { abnt-options1 }
         {#0 'abnt.cite.style :=}
 	{abnt-cite-style "(Author, YEAR)" =
 	  {#1 'abnt.cite.style :=}
-	  {"opção " abnt-cite-style * " desconhecida" * warning$}
+	  {"opï¿½ï¿½o " abnt-cite-style * " desconhecida" * warning$}
 	 if$}
         if$
        "abnt-cite-style" abnt-cite-style abnt.display.options}if$
@@ -1477,8 +1477,8 @@ FUNCTION { abnt-options1 }
     "abnt-emphasize" abnt.emphasize abnt.display.options
     abnt-emphasize "\bf" = abnt-emphasize "\it" = or abnt-emphasize "\em" = or
     abnt-emphasize "\bfseries" = or
-      {"não use " abnt-emphasize * " para abnt-emphasize em " * cite$ *
-      ", isto alterará TODO o texto. Use \textbf ou \emph. Veja a documentação abnt-bibtex-doc para mais detalhes." * warning$}
+      {"nï¿½o use " abnt-emphasize * " para abnt-emphasize em " * cite$ *
+      ", isto alterarï¿½ TODO o texto. Use \textbf ou \emph. Veja a documentaï¿½ï¿½o abnt-bibtex-doc para mais detalhes." * warning$}
     'skip$ if$
     } if$
 
@@ -1490,7 +1490,7 @@ FUNCTION { abnt-options1 }
 	  {abnt.doi.link 'abnt.doi :=}
 	  {abnt-doi "doi" =
 	    {abnt.doi.leave.as.is 'abnt.doi :=}
-	    {"opção " abnt-doi * " desconhecida" * warning$}
+	    {"opï¿½ï¿½o " abnt-doi * " desconhecida" * warning$}
 	   if$}
 	 if$}
         if$
@@ -1558,7 +1558,7 @@ FUNCTION { abnt-options3 }
 
     abnt-dont-use-etal empty$
     'skip$ {abnt-dont-use-etal "yes" = {#0 'abnt.etal.list :=} 'skip$ if$
-    "Uso da opção abnt-dont-use-etal se tornou obsoleto, usamos abnt-etal-list." warning$
+    "Uso da opï¿½ï¿½o abnt-dont-use-etal se tornou obsoleto, usamos abnt-etal-list." warning$
     "abnt-etal-list" abnt.etal.list int.to.str$ abnt.display.options} if$
 
     abnt-etal-cite empty$
@@ -1575,7 +1575,7 @@ FUNCTION { abnt-options3 }
 
     abnt-no-etal-label empty$
     'skip$ {abnt-no-etal-label "yes" = {#0 'abnt.etal.cite :=} 'skip$ if$
-    "Uso da opção abnt-no-etal-label se tornou obsoleto, usamos abnt-etal-cite." warning$
+    "Uso da opï¿½ï¿½o abnt-no-etal-label se tornou obsoleto, usamos abnt-etal-cite." warning$
     "abnt-etal-cite" abnt.etal.cite int.to.str$ abnt.display.options} if$
 
     abnt-repeated-author-omit empty$
@@ -1694,7 +1694,7 @@ FUNCTION {book}
   format.howpublished output  new.sentence
   format.volume.number.series output new.sentence
   format.note output
-  format.issn output %pode parecer curioso, mas revistas inteiras são tratadas como livro
+  format.issn output %pode parecer curioso, mas revistas inteiras sï¿½o tratadas como livro
   format.isbn output new.sentence
   format.url
   fin.entry
@@ -1790,7 +1790,7 @@ FUNCTION {journalpart}
   format.illustrated
   format.dimensions  new.sentence
   format.note output
-  format.issn output %pode parecer curioso, mas revistas inteiras são tratadas como livro
+  format.issn output %pode parecer curioso, mas revistas inteiras sï¿½o tratadas como livro
   format.isbn output new.sentence
   format.url
   fin.entry
@@ -2140,7 +2140,7 @@ FUNCTION {begin.bib}
     {"\providecommand{\bibtextitlecommand}[2]{#2}" write$ newline$}
     'skip$ if$
   "\abntbstabout{" abnt.bst.revision * "}" * write$ newline$
-  %Se você não usa abntcite e precisa que a margem direita não
+  %Se vocï¿½ nï¿½o usa abntcite e precisa que a margem direita nï¿½o
   %seja justificada, descomente a linha seguinte
   %alternativamente coloque \bibliography{abnt-nrj,...
 %  "\setlength{\rightskip}{0pt plus 2cm}" write$ newline$
@@ -2155,11 +2155,11 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 FUNCTION {apresentacao}
 { "+---------------------------------------------------------+"
-  "| http://abntex.codigolivre.org.br                        |"
-  "| Em caso de dúvidas ou problemas com este estilo procure |"
+  "| https://abntex.codigolivre.org.br                        |"
+  "| Em caso de dï¿½vidas ou problemas com este estilo procure |"
   abnt.alf
- {"| Estilo bibliográfico abnt-alf.bst versão " abnt.bst.revision * "          |" *}
- {"| Estilo bibliográfico abnt-num.bst versão " abnt.bst.revision * "          |" *}
+ {"| Estilo bibliogrï¿½fico abnt-alf.bst versï¿½o " abnt.bst.revision * "          |" *}
+ {"| Estilo bibliogrï¿½fico abnt-num.bst versï¿½o " abnt.bst.revision * "          |" *}
  if$
   "+---------------------------------------------------------+"
   stack$

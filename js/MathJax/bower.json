@@ -1,7 +1,7 @@
 {
   "name": "MathJax",
   "main": "./MathJax.js",
-  "homepage": "http://www.mathjax.org/",
+  "homepage": "https://www.mathjax.org/",
   "ignore": [
     "**/.*",
     "node_modules",

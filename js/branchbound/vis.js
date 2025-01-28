@@ -8,17 +8,17 @@
  * @date    2015-04-07
  *
  * @license
- * Copyright (C) 2011-2014 Almende B.V, http://almende.com
+ * Copyright (C) 2011-2014 Almende B.V, https://almende.com
  *
  * Vis.js is dual licensed under both
  *
  * * The Apache 2.0 License
- *   http://www.apache.org/licenses/LICENSE-2.0
+ *   https://www.apache.org/licenses/LICENSE-2.0
  *
  * and
  *
  * * The MIT License
- *   http://opensource.org/licenses/MIT
+ *   https://opensource.org/licenses/MIT
  *
  * Vis.js may be distributed under either license.
  */
@@ -245,7 +245,7 @@
 
         /**
          * Create a semi UUID
-         * source: http://stackoverflow.com/a/105074/1262753
+         * source: https://stackoverflow.com/a/105074/1262753
          * @return {String} uuid
          */
         exports.randomUUID = function () {
@@ -588,7 +588,7 @@
 
         // parse ASP.Net Date pattern,
         // for example '/Date(1198908717056)/' or '/Date(1198908717056-0700)/'
-        // code from http://momentjs.com/
+        // code from https://momentjs.com/
         var ASPDateRegex = /^\/?Date\((\-?\d+)/i;
 
         /**
@@ -809,7 +809,7 @@
          * @return {Element} target element
          */
         exports.getTarget = function (event) {
-            // code from http://www.quirksmode.org/js/events_properties.html
+            // code from https://www.quirksmode.org/js/events_properties.html
             if (!event) {
                 event = window.event;
             }
@@ -942,7 +942,7 @@
         };
 
         /**
-         * http://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
+         * https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
          *
          * @param {String} hex
          * @returns {{r: *, g: *, b: *}} | 255 range
@@ -1077,7 +1077,7 @@
         };
 
         /**
-         * http://www.javascripter.net/faq/rgb2hsv.htm
+         * https://www.javascripter.net/faq/rgb2hsv.htm
          *
          * @param red
          * @param green
@@ -1379,7 +1379,7 @@
 
         /**
          * Quadratic ease-in-out
-         * http://gizma.com/easing/
+         * https://gizma.com/easing/
          * @param {number} t        Current time
          * @param {number} start    Start value
          * @param {number} end      End value
@@ -1397,7 +1397,7 @@
 
 
         /*
-         * Easing Functions - inspired from http://gizma.com/easing/
+         * Easing Functions - inspired from https://gizma.com/easing/
          * only considering the t value for the range [0, 1] => [0, 1]
          * https://gist.github.com/gre/1650294
          */
@@ -1520,13 +1520,13 @@
                 }
                 else {
                     // create a new element and add it to the SVG
-                    element = document.createElementNS('http://www.w3.org/2000/svg', elementType);
+                    element = document.createElementNS('https://www.w3.org/2000/svg', elementType);
                     svgContainer.appendChild(element);
                 }
             }
             else {
                 // create a new element and add it to the SVG, also create a new object in the svgElements to keep track of it.
-                element = document.createElementNS('http://www.w3.org/2000/svg', elementType);
+                element = document.createElementNS('https://www.w3.org/2000/svg', elementType);
                 JSONcontainer[elementType] = { used: [], redundant: [] };
                 svgContainer.appendChild(element);
             }
@@ -3389,7 +3389,7 @@
 
         /**
          * Convert a 3D location to a 2D location on screen
-         * http://en.wikipedia.org/wiki/3D_projection
+         * https://en.wikipedia.org/wiki/3D_projection
          * @param {Point3d} point3d   A 3D point with parameters x, y, z
          * @return {Point2d} point2d  A 2D point with parameters x, y
          */
@@ -3400,7 +3400,7 @@
 
         /**
          * Convert a 3D location its translation seen from the camera
-         * http://en.wikipedia.org/wiki/3D_projection
+         * https://en.wikipedia.org/wiki/3D_projection
          * @param {Point3d} point3d    A 3D point with parameters x, y, z
          * @return {Point3d} translation A 3D point with parameters x, y, z This is
          *                   the translation of the point, seen from the
@@ -5270,7 +5270,7 @@
 
         /**
          * Event handler for mouse wheel event, used to zoom the graph
-         * Code from http://adomas.org/javascript-mouse-wheel/
+         * Code from https://adomas.org/javascript-mouse-wheel/
          * @param {event}  event   The event
          */
         Graph3d.prototype._onWheel = function (event) {
@@ -5540,7 +5540,7 @@
          * of the camera arm.
          *
          * Documentation:
-         *   http://en.wikipedia.org/wiki/3D_projection
+         *   https://en.wikipedia.org/wiki/3D_projection
          */
         function Camera() {
             this.armLocation = new Point3d();
@@ -5970,7 +5970,7 @@
 
         /**
          * Calculate the cross product of the two provided points, returns axb
-         * Documentation: http://en.wikipedia.org/wiki/Cross_product
+         * Documentation: https://en.wikipedia.org/wiki/Cross_product
          * @param {Point3d} a
          * @param {Point3d} b
          * @return {Point3d} cross product axb
@@ -8396,7 +8396,7 @@
 
         /**
          * Event handler for mouse wheel event, used to zoom
-         * Code from http://adomas.org/javascript-mouse-wheel/
+         * Code from https://adomas.org/javascript-mouse-wheel/
          * @param {Event} event
          * @private
          */
@@ -11199,7 +11199,7 @@
             this.dom.lineContainer.style.position = 'relative';
 
             // create svg element for graph drawing.
-            this.svg = document.createElementNS('http://www.w3.org/2000/svg', "svg");
+            this.svg = document.createElementNS('https://www.w3.org/2000/svg', "svg");
             this.svg.style.position = "absolute";
             this.svg.style.top = '0px';
             this.svg.style.height = '100%';
@@ -11864,7 +11864,7 @@
          * @returns {{icon: HTMLElement, label: (group.content|*|string), orientation: (.options.yAxisOrientation|*)}}
          */
         GraphGroup.prototype.getLegend = function (iconWidth, iconHeight) {
-            var svg = document.createElementNS('http://www.w3.org/2000/svg', "svg");
+            var svg = document.createElementNS('https://www.w3.org/2000/svg', "svg");
             this.drawIcon(0, 0.5 * iconHeight, [], svg, iconWidth, iconHeight);
             return { icon: svg, label: this.content, orientation: this.options.yAxisOrientation };
         }
@@ -14257,7 +14257,7 @@
             this.dom.textArea.style.position = "relative";
             this.dom.textArea.style.top = "0px";
 
-            this.svg = document.createElementNS('http://www.w3.org/2000/svg', "svg");
+            this.svg = document.createElementNS('https://www.w3.org/2000/svg', "svg");
             this.svg.style.position = 'absolute';
             this.svg.style.top = 0 + 'px';
             this.svg.style.width = this.options.iconSize + 5 + 'px';
@@ -14560,7 +14560,7 @@
             this.dom.frame = frame;
 
             // create svg element for graph drawing.
-            this.svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            this.svg = document.createElementNS('https://www.w3.org/2000/svg', 'svg');
             this.svg.style.position = 'relative';
             this.svg.style.height = ('' + this.options.graphHeight).replace('px', '') + 'px';
             this.svg.style.display = 'block';
@@ -17174,7 +17174,7 @@
 
         /**
          * Event handler for mouse wheel event, used to zoom the timeline
-         * See http://adomas.org/javascript-mouse-wheel/
+         * See https://adomas.org/javascript-mouse-wheel/
          *     https://github.com/EightMedia/hammer.js/issues/256
          * @param {MouseEvent}  event
          * @private
@@ -19936,7 +19936,7 @@
         /**
          * Calculate the distance between a point (x3,y3) and a line segment from
          * (x1,y1) to (x2,y2).
-         * http://stackoverflow.com/questions/849211/shortest-distancae-between-a-point-and-a-line-segment
+         * https://stackoverflow.com/questions/849211/shortest-distancae-between-a-point-and-a-line-segment
          * @param {number} x1
          * @param {number} y1
          * @param {number} x2
@@ -21855,7 +21855,7 @@
          * Parse a text source containing data in DOT language into a JSON object.
          * The object contains two lists: one with nodes and one with edges.
          *
-         * DOT language reference: http://www.graphviz.org/doc/info/lang.html
+         * DOT language reference: https://www.graphviz.org/doc/info/lang.html
          *
          * @param {String} data     Text containing a graph in DOT-notation
          * @return {Object} graph   An object containing two parameters:
@@ -24805,7 +24805,7 @@
              * @param {Number} r   radius, half the length of the sides of the triangle
              */
             CanvasRenderingContext2D.prototype.triangle = function (x, y, r) {
-                // http://en.wikipedia.org/wiki/Equilateral_triangle
+                // https://en.wikipedia.org/wiki/Equilateral_triangle
                 this.beginPath();
 
                 var s = r * 2;
@@ -24827,7 +24827,7 @@
              * @param {Number} r radius
              */
             CanvasRenderingContext2D.prototype.triangleDown = function (x, y, r) {
-                // http://en.wikipedia.org/wiki/Equilateral_triangle
+                // https://en.wikipedia.org/wiki/Equilateral_triangle
                 this.beginPath();
 
                 var s = r * 2;
@@ -24849,7 +24849,7 @@
              * @param {Number} r   radius, half the length of the sides of the triangle
              */
             CanvasRenderingContext2D.prototype.star = function (x, y, r) {
-                // http://www.html5canvastutorials.com/labs/html5-canvas-star-spinner/
+                // https://www.html5canvastutorials.com/labs/html5-canvas-star-spinner/
                 this.beginPath();
 
                 for (var n = 0; n < 10; n++) {
@@ -24864,7 +24864,7 @@
             };
 
             /**
-             * http://stackoverflow.com/questions/1255512/how-to-draw-a-rounded-rectangle-on-html-canvas
+             * https://stackoverflow.com/questions/1255512/how-to-draw-a-rounded-rectangle-on-html-canvas
              */
             CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
                 var r2d = Math.PI / 180;
@@ -24883,7 +24883,7 @@
             };
 
             /**
-             * http://stackoverflow.com/questions/2172798/how-to-draw-an-oval-in-html5-canvas
+             * https://stackoverflow.com/questions/2172798/how-to-draw-an-oval-in-html5-canvas
              */
             CanvasRenderingContext2D.prototype.ellipse = function (x, y, w, h) {
                 var kappa = .5522848,
@@ -24905,7 +24905,7 @@
 
 
             /**
-             * http://stackoverflow.com/questions/2172798/how-to-draw-an-oval-in-html5-canvas
+             * https://stackoverflow.com/questions/2172798/how-to-draw-an-oval-in-html5-canvas
              */
             CanvasRenderingContext2D.prototype.database = function (x, y, w, h) {
                 var f = 1 / 3;
@@ -24971,7 +24971,7 @@
 
             /**
              * Sets up the dashedLine functionality for drawing
-             * Original code came from http://stackoverflow.com/questions/4576724/dotted-stroke-in-canvas
+             * Original code came from https://stackoverflow.com/questions/4576724/dotted-stroke-in-canvas
              * @author David Jordan
              * @date 2012-08-08
              */
@@ -25911,7 +25911,7 @@
                     return regexes[token](config._strict, config._locale);
                 }
 
-                // Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
+                // Code from https://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
                 function unescapeFormat(s) {
                     return s.replace('\\', '').replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g, function (matched, p1, p2, p3, p4) {
                         return p1 || p2 || p3 || p4;
@@ -26205,7 +26205,7 @@
 
                 function createDate(y, m, d, h, M, s, ms) {
                     //can't just apply() to create a date:
-                    //http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
+                    //https://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
                     var date = new Date(y, m, d, h, M, s, ms);
 
                     //the date constructor doesn't accept years < 1970
@@ -26368,7 +26368,7 @@
 
                 // HELPERS
 
-                //http://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
+                //https://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
                 function dayOfYearFromWeeks(year, week, weekday, firstDayOfWeekOfYear, firstDayOfWeek) {
                     var d = createUTCDate(year, 0, 1).getUTCDay();
                     var daysToAdd;
@@ -27030,7 +27030,7 @@
 
                 var aspNetRegex = /(\-)?(?:(\d*)\.)?(\d+)\:(\d+)(?:\:(\d+)\.?(\d{3})?)?/;
 
-                // from http://docs.closure-library.googlecode.com/git/closure_goog_date_date.js.source.html
+                // from https://docs.closure-library.googlecode.com/git/closure_goog_date_date.js.source.html
                 // somewhat more in line with 4.4.3.2 2004 spec, but allows decimal anywhere
                 var create__isoRegex = /^(-)?P(?:(?:([0-9,.]*)Y)?(?:([0-9,.]*)M)?(?:([0-9,.]*)D)?(?:T(?:([0-9,.]*)H)?(?:([0-9,.]*)M)?(?:([0-9,.]*)S)?)?|([0-9,.]*)W)$/;
 
@@ -28469,7 +28469,7 @@
     /***/ function (module, exports, __webpack_require__) {
 
         var __WEBPACK_AMD_DEFINE_RESULT__;/*! Hammer.JS - v1.1.3 - 2014-05-20
-   * http://eightmedia.github.io/hammer.js
+   * https://eightmedia.github.io/hammer.js
    *
    * Copyright (c) 2014 Jorik Tangelder <j.tangelder@gmail.com>;
    * Licensed under the MIT license */

@@ -8,7 +8,7 @@ Copyright 2013 The MathJax Consortium
 This work can be freely used and distributed under
 the GUST Font License (GFL -- see GUST-FONT-LICENSE.txt)
 which is actually an instance of the LaTeX Project Public License
-(LPPL -- see http://www.latex-project.org/lppl.txt).
+(LPPL -- see https://www.latex-project.org/lppl.txt).
 
 Below, in three sections required by the GUST Font License,
 font names and file names specific for the Gyre Pagella MathJax
